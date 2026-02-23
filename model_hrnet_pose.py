@@ -25,7 +25,7 @@ class HRNetKeypointModel(nn.Module):
     def __init__(
         self,
         num_keypoints: int,
-        backbone_name: str = "hrnet_w32",
+        backbone_name: str = "hrnet_w64",
         pretrained: bool = True,
         out_index: int = 1,          # <-- IMPORTANT default
         head_channels: int = 256,
